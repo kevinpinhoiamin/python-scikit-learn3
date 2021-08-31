@@ -17,7 +17,6 @@ Y = Ydummies_df.values
 porcentagem_de_treino = 0.8
 
 tamanho_de_treino = int(porcentagem_de_treino * len(Y))
-# tamanho_de_validacao = len(Y) - tamanho_de_treino
 
 treino_dados = X[0:tamanho_de_treino]
 treino_marcacoes = Y[0:tamanho_de_treino]
